@@ -5,10 +5,6 @@ puts "----------"
 
 # Your code goes below here ...
 
-# create Active Record models
-class Store < ActiveRecord::Base
-end
-
 # create three store
 store = Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
 store = Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
