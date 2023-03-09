@@ -12,3 +12,5 @@ store = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true
 
 # output the number of stores
 puts Store.count
+
+puts store.errors.full_messages
